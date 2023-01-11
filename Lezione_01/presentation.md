@@ -11,10 +11,34 @@ dataState: "no-title-footer"
 ---
 
 <style>
+    .reveal h1 {
+        font-size: 2.5em;
+        color: #000000;
+    }
+
+    .reveal h2 {
+        font-size: 1.75em;
+        color: #000000;
+    }
+
+    .reveal h3 {
+        font-size: 1.25em;
+        color: #000000;
+    }
+
+    .reveal li {
+        font-size: 0.8em;
+    }
+
     .reveal code {
         background-color: #66b3ff;
         color: #000000;
         padding: 0.2em 0.25em 0.2em 0.25em;
+    }
+
+    .language-bash {
+        background-color: #000000;
+        color: #00ff00;
     }
 
     #title-footer {
@@ -67,22 +91,22 @@ dataState: "no-title-footer"
 
 # hardware
   
-### Arduino è una piccola scheda dove un ```microcontroller``` coesiste con componenti elettrici e periferiche
+### Arduino è una piccola scheda dove un ```microcontroller``` coesiste con componenti elettrici e periferiche {: .fragment}
 
 ---
 
 # software
 
-### Arduino è un software ```IDE``` (integrated development environment) e una ```libreria``` scritta in ```C```
-### che permettono di programmare la scheda semplicemente scrivendo il codice e premendo un tasto
+### Arduino è un software ```IDE``` (integrated development environment) e una ```libreria``` scritta in ```C``` {: .fragment}
+### che permettono di programmare la scheda semplicemente scrivendo il codice e premendo un tasto {: .fragment}
 
 ---
 
 # comunità
 
-- molte persone nel mondo usano Arduino: si contano circa 30 milioni di utenti attivi
-- tali utenti (spesso chiamati ```makers```) amano condividere la loro conoscenza con gli altri
-- c'è una grande mole di documentazione su Arduino sul web, prodotta dai makers per i makers, e disponibile a chiunque
+- molte persone nel mondo usano Arduino: si contano circa 30 milioni di utenti attivi {: .fragment}
+- tali utenti (spesso chiamati ```makers```) amano condividere la loro conoscenza con gli altri {: .fragment}
+- c'è una grande mole di documentazione su Arduino sul web, prodotta dai makers per i makers, e disponibile a chiunque {: .fragment}
 
 ---
 
@@ -95,8 +119,11 @@ dataState: "no-title-footer"
 
 --
 
-### è semplice e non solo destinata agli ```esperti```
-### a causa di questa semplicità Arduino vi permette di rendere reali le vostre idee
+### è semplice da programmare e destinata non solo agli `esperti`
+
+--
+
+### grazie a semplicità Arduino vi permette di rendere reali le vostre idee
 
 --
 
@@ -265,12 +292,10 @@ dataState: "no-title-footer"
 
 # e cos'altro?
 
---
-
-- 2 ICSP connectors to program mcu and serial chip directly
-- reset button {: .fragment}
-- crystal oscillator {: .fragment}
-- resistors, capacitors, voltage regulators, and so on... {: .fragment}
+- 2 connettori ICSP per programmare il microcontroller e il chip seriale direttamente {: .fragment} 
+- pulsante di *reset* {: .fragment}
+- oscillatore al cristallo {: .fragment}
+- resistori, condensatori, regolatori di voltaggio e così via... {: .fragment}
 
 ---
 

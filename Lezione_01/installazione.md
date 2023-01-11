@@ -29,17 +29,21 @@ dataState: "no-title-footer"
         background-color: #000000;
         color: #00ff00;
     }
+
+    #title-footer {
+        display: none;
+    }
 </style>
 
 # INSTALLAZIONE INTERATTIVA
 
 ---
 
-# forma artistica in cui `MEDIA` diversi occupano uno spazio comune
+## forma artistica in cui `MEDIA` diversi occupano uno spazio comune
 
 --
 
-# E DOVE LO SPETTATORE È INTERAGISCE CON I MEDIA
+## E DOVE LO SPETTATORE INTERAGISCE
 
 ---
 
