@@ -65,7 +65,7 @@ dataState: "no-title-footer"
 ### <div style="text-align: center"> silhouette </div>
 # <div style="text-align: justify"> calore </div>
 ##### <div style="text-align: center; padding: 2em 3em 0.2em 0.25em;"> fredda </div>
-### <div style="text-align: right; padding: 2em 3em 0.2em 0.25em;"> calda </div>
+### <div style="text-align: right; padding: 2em 3em 0.2em 0.25em;"> kelvin </div>
 # <div style="text-align: left"> ... </div>
 
 ---
@@ -74,30 +74,25 @@ dataState: "no-title-footer"
 
 ---
 
-# OGNUNA DELLE QUALI COMPOSTA DA UN `DEFLUSSORE`
-<img src=acqua01/03_deflussore.jpg width=250 height=250 /> {: .fragment}
+# OGNUNA DELLE QUALI COMPOSTA DA UNA `FOTORESISTENZA`
+<img src=s_images/fotoresistenza.jpg width=250 height=250 /> {: .fragment}
 
 --
 
-# CHE PERMETTERA' ALL'ACQUA DI UNA BOTTIGLIA DI PLASTICA DI SCENDERE A `GOCCE`
-
----
-
-# LE GOCCE CADRANNO SU UNA SUPERFICIE COLLEGATA A UN `MICROFONO A CONTATTO`
-<img src=acqua01/04_piezo.jpg width=300 height=400 /> {: .fragment}
-
----
-
-# CHE ATTRAVERSO UNA SCHEDA `ARDUINO` INVIERA' UN SEGNALE AL COMPUTER
-<img src=acqua01/05_wemos.jpg width=350 height=400 /> {: .fragment}
-
----
-
-# DOVE `PUREDATA` SI OCCUPERA' DI GESTIRE LE NOSTRE VOCI E I NOSTRI SUONI
+# CHE MISURERÀ LA QUANTITÀ DI LUCE PRESENTE SULLA SUA SUPERFICIE
+# E INVIERÀ TALE VALORE A UNA SCHEDA ARDUINO
 
 --
 
-<img src=acqua01/07_tutto_b.png />
+# CHE SI OCCUPERÀ DI ELABORARE IL SEGNALE E DI INVIARLO A UN COMPUTER
+
+---
+
+# DOVE IL SOFTWARE `PUREDATA` SI OCCUPERA' DI GESTIRE LE NOSTRE VOCI E I NOSTRI SUONI
+
+--
+
+<img src=s_images/tutto.svg />
 
 ---
 
@@ -108,21 +103,20 @@ dataState: "no-title-footer"
 # Testi 
 1. scelta e compilazione {: .fragment}
 2. registrazione {: .fragment}
-3. editing e pulizia {: .fragment}
+3. editing e pulizia con `ocenaudio` {: .fragment}
 4. sequencing {: .fragment}
 
 ---
 
 # Arduino
-1. Costruzione del dispositivo (cavi, piezo, led, *inscatolamento*) {: .fragment}
+1. Costruzione del dispositivo (cavi, fotoresistenze, *inscatolamento*) {: .fragment}
 2. Scrittura del codice (Arduino IDE) {: .fragment}
 
 ---
 
 # Suoni
-1. Che suoni? (suoni d'acqua, sintesi per modelli fisici, etc...) {: .fragment}
-1. Registrazione strumenti che `mimano` l'acqua {: .fragment}
-2. Costruzione della *patch* con **puredata** {: .fragment}
+1. Che suoni? {: .fragment}
+2. Costruzione della *patch* con `puredata` {: .fragment}
 
 ---
 
