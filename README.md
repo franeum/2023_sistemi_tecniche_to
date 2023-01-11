@@ -1,1 +1,0 @@
-# 2023_sistemi_tecniche_to
