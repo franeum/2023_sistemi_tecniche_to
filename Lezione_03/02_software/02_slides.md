@@ -292,3 +292,7 @@ B --> C[program];
 ### what arduino does
 
 <img src=images/blink_flowchart.svg width=640 style="background:none; border:none; box-shadow:none;" />
+
+---
+
+<img src=senza.jpg />
